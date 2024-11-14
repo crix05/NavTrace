@@ -1,0 +1,58 @@
+/* SpeedCard.css */
+
+.card_parent {
+  margin-top: 30px;
+  background-color: #394656;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(255, 255, 255, 0.1); /* Whitish grey border shadow */
+  padding: 17px;
+  padding-left:15px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.speed-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.speed-value {
+  display: flex;
+  /* margin-left: 50px; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f4f4f4;
+  /* margin-top: 50px; */
+  display: flex;
+  align-items:center;
+  text-transform: uppercase; /* Optional: Makes the label uppercase */
+}
+
+.logo{
+  font-size: 14px;
+  font-weight: 600;
+  color: #f4f4f4;
+  margin-top: 10px;
+}
+
+.logo_label{
+  display:flex;
+  gap:7px
+}
